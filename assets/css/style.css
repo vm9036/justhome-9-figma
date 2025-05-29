@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+
+/* header starts */
+
+.main_header_sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.main_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.main_nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30.4px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: rgba(26, 26, 26, 1);
+    ;
+}
+
+.main_nav ul li a i {
+    vertical-align: middle;
+    font-size: 13px;
+    position: relative;
+    top: -4px;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact_info .phone i {
+    margin-right: 14px;
+    vertical-align: middle;
+}
+
+.contact_info .phone span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+    ;
+}
+
+.contact_info .user {
+    border: 1px solid rgba(235, 235, 235, 1);
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+
+.contact_info .property_btn button {
+    border: none;
+    background: rgba(247, 246, 247, 1);
+    padding: 6.75px 33.66px 7.25px 26px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* header ends */
+
+/* hero section starts */
+
+.hero {
+    background: url(../images/hero-bg.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.hero_content img {
+    width: 900px;
+    height: 146.8px;
+}
+
+.hero_content button {
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 1px 25.68px 1px 26px;
+    background: transparent;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 38px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.hero_content h2 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero_content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+}
+
+/* hero section ends */
+
+/* feature section starts */
+/* feature section ends */

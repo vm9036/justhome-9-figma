@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    /* header starts */
+
+    .hamburger {
+        display: block;
+    }
+
+    .main_header_sec {
+        height: 100px;
+    }
+
+    .main_nav {
+        display: none;
+    }
+
+    .contact_info {
+        display: none;
+    }
+
+    /* header ends */
+
+    /* hero section starts */
+
+    .hero_content img {
+        display: none;
+    }
+
+    .hero_content p {
+        font-size: 20px;
+    }
+
+    /* hero section starts */
+}
