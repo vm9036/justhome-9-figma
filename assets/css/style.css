@@ -190,6 +190,7 @@
 }
 
 .feature_cards {
+    margin-top: 39px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
