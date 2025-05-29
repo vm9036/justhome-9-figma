@@ -164,4 +164,83 @@
 /* hero section ends */
 
 /* feature section starts */
+
+.feature_main_sec {
+    margin-block: 150px 165px;
+}
+
+.feature_heading {
+    text-align: center;
+}
+
+.feature_heading h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.feature_heading p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.feature_cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature_card {
+    width: 256px;
+    height: 338.10px;
+    border-radius: 16px;
+}
+
+.feature_cards .town_house{
+    background: url(../images/feature-sec-town-house.jpg);
+}
+
+.feature_cards .modern_villa{
+    background: url(../images/feature-sec-modern-villa.jpg);
+}
+
+.feature_cards .apartment{
+    background: url(../images/feature-sec-apartment.jpg);
+}
+
+.feature_cards .single_family{
+    background: url(../images/feature-sec-single-family.jpg);
+}
+
+.feature_cards .office{
+    background: url(../images/feature-sec-office.jpg);
+}
+
+.feature_card_content {
+    padding: 40px 0 0 40px;
+}
+
+.feature_card_content h4 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.8px;
+    vertical-align: middle;
+}
+
+.feature_card_content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    margin-top: 9px;
+}
+
+
 /* feature section ends */
