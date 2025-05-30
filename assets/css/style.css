@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .container {
     width: 100%;
     max-width: 1400px;
@@ -111,7 +115,6 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 24px;
-
     display: flex;
     align-items: center;
 }
@@ -163,7 +166,7 @@
 
 /* hero section ends */
 
-/* feature section starts */
+/* feature categories section starts */
 
 .feature_main_sec {
     margin-block: 150px 165px;
@@ -204,23 +207,23 @@
     border-radius: 16px;
 }
 
-.feature_cards .town_house{
+.feature_cards .town_house {
     background: url(../images/feature-sec-town-house.jpg);
 }
 
-.feature_cards .modern_villa{
+.feature_cards .modern_villa {
     background: url(../images/feature-sec-modern-villa.jpg);
 }
 
-.feature_cards .apartment{
+.feature_cards .apartment {
     background: url(../images/feature-sec-apartment.jpg);
 }
 
-.feature_cards .single_family{
+.feature_cards .single_family {
     background: url(../images/feature-sec-single-family.jpg);
 }
 
-.feature_cards .office{
+.feature_cards .office {
     background: url(../images/feature-sec-office.jpg);
 }
 
@@ -244,4 +247,196 @@
 }
 
 
-/* feature section ends */
+/* feature categories section ends */
+
+/* homes section start */
+
+.homes_sec {
+    height: 902.69px;
+    display: flex;
+    align-items: center;
+    background: rgba(249, 249, 249, 1);
+    border-radius: 24px;
+    width: 100%;
+}
+
+.homes_heading_content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.homes_heading_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.homes_heading_content p {
+    font-weight: 400;
+    margin-top: 4px;
+    font-size: 17px;
+    line-height: 32.3px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+
+}
+
+.home_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.home_cards .home_card {
+    width: 447px;
+    height: 453.39px;
+    border: 1px solid rgba(233, 233, 233, 1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_card_image {
+    border-radius: 16px;
+    width: 425px;
+    height: 296.5px;
+    margin-top: 11px;
+}
+
+.home_card .skyper{
+    background: url(../images/homes-skyper-pool-apartment.jpg);
+}
+
+.home_card .north{
+    background: url(../images/homes-north-dillard-street.jpg);
+}
+
+.home_card .eaton{
+    background: url(../images/homes-eaton-garth-penthouse.jpg);
+}
+
+.home_card_image .featured{
+    background: rgba(231, 200, 115, 1);
+    color: rgba(26, 26, 26, 1);
+    margin-left: 10px;
+}
+
+.home_card_image button {
+    margin-left: 20px;
+    margin-top: 23px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 33px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+    background: rgba(31, 75, 67, 1);
+    padding-inline: 15px 14.62px;
+    border-radius: 33px;
+    color: rgba(255, 255, 255, 1);
+;
+}
+
+.home_card_content {
+    padding-inline: 31px;
+}
+
+.home_card_content .home_card_heading {
+    margin-top: 19px;
+}
+
+.home_card_heading h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.8px;
+    vertical-align: middle;
+}
+
+.home_card_heading h2 span {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31.5px;
+    vertical-align: middle;
+    color: rgba(235, 102, 78, 1);
+    margin-left: 87px;
+}
+
+.home_card_location p i {
+    color: rgba(26, 26, 26, 1);
+    width: 17.33px;
+    height: 20px;
+}
+
+.home_card_location p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    vertical-align: middle;
+}
+
+.home_card_details {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.home_card_details .home_beds {
+    border-right: 1px solid rgba(233, 233, 233, 1);
+    /* margin-right: 16px; */
+}
+
+.home_beds p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.6px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.home_beds p i {
+    height: 20px;
+    width: 20px;
+    margin-right: 9px;
+}
+
+.home_card_details .home_baths {
+    border-right: 1px solid rgba(233, 233, 233, 1);
+    /* margin-right: 16px; */
+}
+
+.home_baths p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.6px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.home_baths p i {
+    height: 20px;
+    width: 20px;
+    margin-right: 9px;
+}
+
+.home_feet p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.6px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.home_feet p i {
+    height: 20px;
+    width: 20px;
+    margin-right: 9px;
+}
+
+/* homes section ends */
