@@ -36,4 +36,87 @@
     }
 
     /* hero section starts */
+
+    /* homes section starts */
+
+    .homes_sec {
+        height: auto;
+        padding-block: 60px;
+    }
+
+    .home_cards {
+        flex-wrap: wrap;
+    }
+
+    .home_card {
+        width: 100%;
+        padding-inline: 11px;
+        padding-block: 11px 20px;
+    }
+
+    .home_card_image {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .home_card_content {
+        padding-inline: 5px;
+        text-align: center;
+    }
+
+    .home_card_content .home_card_heading {
+        display: block;
+    }
+
+    .home_card_heading p {
+        margin-left: 0;
+        margin-top: 6px;
+    }
+
+    .home_card .skyper {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home_card .north {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home_card .eaton {
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* homes section starts */
+
+    /* company section starts */
+
+    .company_sec{
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .company_names{
+        gap: 30px;
+    }
+
+    /* company section ends */
+
+    /* team section starts */
+
+    .team_experts_cards{
+        flex-wrap: wrap;
+    }
+
+    .team_expert_card{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .team_expert_card .expert_name{
+        text-align: center;
+    }
+
+    /* team section ends */
 }

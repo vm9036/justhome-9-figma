@@ -309,19 +309,19 @@ body {
     margin-top: 11px;
 }
 
-.home_card .skyper{
+.home_card .skyper {
     background: url(../images/homes-skyper-pool-apartment.jpg);
 }
 
-.home_card .north{
+.home_card .north {
     background: url(../images/homes-north-dillard-street.jpg);
 }
 
-.home_card .eaton{
+.home_card .eaton {
     background: url(../images/homes-eaton-garth-penthouse.jpg);
 }
 
-.home_card_image .featured{
+.home_card_image .featured {
     background: rgba(231, 200, 115, 1);
     color: rgba(26, 26, 26, 1);
     margin-left: 10px;
@@ -341,7 +341,7 @@ body {
     padding-inline: 15px 14.62px;
     border-radius: 33px;
     color: rgba(255, 255, 255, 1);
-;
+    ;
 }
 
 .home_card_content {
@@ -350,6 +350,7 @@ body {
 
 .home_card_content .home_card_heading {
     margin-top: 19px;
+    display: inline-flex;
 }
 
 .home_card_heading h2 {
@@ -359,13 +360,22 @@ body {
     vertical-align: middle;
 }
 
-.home_card_heading h2 span {
+.home_card_heading p {
     font-weight: 600;
     font-size: 21px;
     line-height: 31.5px;
     vertical-align: middle;
     color: rgba(235, 102, 78, 1);
-    margin-left: 87px;
+    margin-left: 85px;
+}
+
+.home_card_heading p .month {
+
+    font-weight: 400;
+    font-size: 14.7px;
+    line-height: 22.05px;
+    vertical-align: middle;
+
 }
 
 .home_card_location p i {
@@ -430,7 +440,6 @@ body {
     font-size: 16px;
     line-height: 17.6px;
     vertical-align: middle;
-    margin-right: 16px;
 }
 
 .home_feet p i {
@@ -440,3 +449,89 @@ body {
 }
 
 /* homes section ends */
+
+/* company section starts */
+
+.company_sec {
+    margin-block: 60px;
+    height: 314.30px;
+    background: rgba(26, 26, 26, 1);
+    display: flex;
+    align-items: center;
+}
+
+.company_heading p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+
+.company_names {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* company section ends */
+
+/* team section starts */
+
+.team_sec_heading h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.team_sec_heading p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+
+.team_experts_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team_expert_card {
+    width: 328px;
+    height: 476.25px;
+}
+
+.team_expert_card .expert_image img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.team_expert_card .expert_name h2 {
+    padding-block: 19px 5px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25.2px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.team_expert_card .expert_name p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+
+}
+
+/* team section ends */
