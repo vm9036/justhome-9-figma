@@ -90,6 +90,43 @@
 
     /* homes section starts */
 
+    /* local expertise starts */
+
+    .local_expertise_sec {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .local_exp_main_sec{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .local_exp_image img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .local_expertise{
+        display: none;
+    } 
+
+    .local_exp_content{
+        text-align: center;
+    }
+
+    .local_exp_content h2{
+        width: 100%;
+        font-size: 33px;
+    }
+
+    .local_exp_content p{
+        width: 100%;
+    }
+
+    /* local expertise ends */
+
+
     /* company section starts */
 
     .company_sec{
@@ -103,6 +140,9 @@
 
     /* company section ends */
 
+    
+
+
     /* team section starts */
 
     .team_experts_cards{
@@ -111,7 +151,7 @@
 
     .team_expert_card{
         width: 100%;
-        height: 90vh;
+        height: auto;
     }
 
     .team_expert_card .expert_name{

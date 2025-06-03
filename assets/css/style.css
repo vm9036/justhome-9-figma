@@ -480,6 +480,174 @@ body {
 
 /* company section ends */
 
+/* featured properties section starts */
+
+.featured_properties_sec {
+    height: 902.69px;
+    display: flex;
+    align-items: center;
+}
+
+.featured_property_heading_content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured_property_heading_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.featured_property_heading_content p {
+    font-weight: 400;
+    margin-top: 4px;
+    font-size: 17px;
+    line-height: 32.3px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+
+}
+
+.featured_properties_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.featured_property_card {
+    width: 328px;
+    height: 383.27px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 233, 233, 1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.featured_property_card_image {
+    border-radius: 16px;
+    width: 306px;
+    height: 213.49px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.feature_skyper {
+    background: url(../images/homes-skyper-pool-apartment.jpg);
+    background-size: contain;
+}
+
+.feature_skyper {
+    background: url(../images/homes-skyper-pool-apartment.jpg);
+    background-size: contain;
+}
+
+.featured_property_card_image button {
+    margin-left: 20px;
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 33px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+    background: rgba(31, 75, 67, 1);
+    padding-inline: 15px 14.62px;
+    border-radius: 33px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.featured_property_card_image .featured {
+    background: rgba(231, 200, 115, 1);
+    color: rgba(26, 26, 26, 1);
+    margin-left: 10px;
+}
+
+.featured_property_card_heading p .month {
+    font-weight: 400;
+    font-size: 13.3px;
+    line-height: 19.95px;
+    vertical-align: middle;
+}
+
+.featured_property_card_content {
+    margin-top: 14px;
+    padding-inline: 21px;
+}
+
+.featured_property_card_heading p {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(235, 102, 78, 1);
+    margin-bottom: 4px;
+}
+
+.featured_property_card_heading h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.8px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.featured_property_card_location p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.featured_property_card_details {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.featured_property_beds {
+    border-right: 1px solid rgba(233, 233, 233, 1);
+}
+
+.featured_property_beds p {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+    vertical-align: middle;
+}
+
+.featured_property_beds p i {
+    margin-right: 10px;
+}
+
+.featured_property_baths {
+    border-right: 1px solid rgba(233, 233, 233, 1);
+}
+
+.featured_property_baths p {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+    vertical-align: middle;
+}
+
+.featured_property_baths p i {
+    margin-right: 10px;
+}
+
+/* featured properties section ends */
+
 /* team section starts */
 
 .team_sec_heading h2 {
@@ -531,7 +699,67 @@ body {
     line-height: 28.5px;
     vertical-align: middle;
     color: rgba(26, 26, 26, 1);
-
 }
 
 /* team section ends */
+
+/* local expertise starts */
+
+.local_expertise_sec {
+    display: flex;
+    align-items: center;
+    height: 902.69px;
+}
+
+.local_exp_main_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.local_exp_image {
+    position: relative;
+}
+
+.local_exp_image .local_expertise {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.local_exp_content h2 {
+    width: 334.57px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.local_exp_content p {
+    margin-top: 19px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+    width: 603.65px;
+}
+
+.local_exp_content button {
+    border: 1px solid rgba(26, 26, 26, 1);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 52px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px 30px 1px 30px;
+    border-radius: 12px;
+    background: rgba(26, 26, 26, 1);
+}
+
+/* local expertise ends */
