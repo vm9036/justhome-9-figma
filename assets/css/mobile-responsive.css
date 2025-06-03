@@ -97,30 +97,30 @@
         padding: 60px 0;
     }
 
-    .local_exp_main_sec{
+    .local_exp_main_sec {
         flex-direction: column;
-        gap: 60px;
+        gap: 20px;
     }
 
-    .local_exp_image img{
+    .local_exp_image img {
         width: 100%;
         object-fit: cover;
     }
 
-    .local_expertise{
+    .local_expertise {
         display: none;
-    } 
+    }
 
-    .local_exp_content{
+    .local_exp_content {
         text-align: center;
     }
 
-    .local_exp_content h2{
+    .local_exp_content h2 {
         width: 100%;
         font-size: 33px;
     }
 
-    .local_exp_content p{
+    .local_exp_content p {
         width: 100%;
     }
 
@@ -129,32 +129,66 @@
 
     /* company section starts */
 
-    .company_sec{
+    .company_sec {
         height: auto;
         padding: 50px 0;
     }
 
-    .company_names{
+    .company_names {
         gap: 30px;
     }
 
     /* company section ends */
 
-    
+    /* featured properties section starts */
+
+    .featured_properties_sec {
+        height: 100%;
+        padding-block: 50px;
+    }
+
+    .featured_properties_cards {
+        flex-wrap: wrap;
+    }
+
+    .featured_property_card {
+        width: 100%;
+        padding-inline: 11px;
+        align-items: center;
+        height: auto;
+        padding-block: 0 20px;
+    }
+
+    .featured_property_card_image {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .featured_property_card_content {
+        text-align: center;
+        padding-inline: 12px;
+    }
+
+    .featured_property_card_details {
+        justify-content: center;
+    }
+
+
+    /* featured properties section ends */
 
 
     /* team section starts */
 
-    .team_experts_cards{
+    .team_experts_cards {
         flex-wrap: wrap;
     }
 
-    .team_expert_card{
+    .team_expert_card {
         width: 100%;
         height: auto;
     }
 
-    .team_expert_card .expert_name{
+    .team_expert_card .expert_name {
         text-align: center;
     }
 

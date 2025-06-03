@@ -453,7 +453,7 @@ body {
 /* company section starts */
 
 .company_sec {
-    margin-block: 60px;
+    margin-block: 60px 0;
     height: 314.30px;
     background: rgba(26, 26, 26, 1);
     display: flex;
@@ -483,7 +483,7 @@ body {
 /* featured properties section starts */
 
 .featured_properties_sec {
-    height: 902.69px;
+    height: 850px;
     display: flex;
     align-items: center;
 }
@@ -540,12 +540,26 @@ body {
 
 .feature_skyper {
     background: url(../images/homes-skyper-pool-apartment.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
-.feature_skyper {
-    background: url(../images/homes-skyper-pool-apartment.jpg);
-    background-size: contain;
+.north{
+    background: url(../images/homes-north-dillard-street.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.eaton{
+    background: url(../images/homes-eaton-garth-penthouse.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new_apartment{
+    background: url(../images/feature-sec-new-apartment.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .featured_property_card_image button {
