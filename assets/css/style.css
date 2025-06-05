@@ -8,6 +8,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .container {
@@ -450,6 +452,67 @@ body {
 
 /* homes section ends */
 
+/* local expertise starts */
+
+.local_expertise_sec {
+    display: flex;
+    align-items: center;
+    height: 902.69px;
+}
+
+.local_exp_main_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.local_exp_image {
+    position: relative;
+}
+
+.local_exp_image .local_expertise {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.local_exp_content h2 {
+    width: 334.57px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.local_exp_content p {
+    margin-top: 19px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+    width: 603.65px;
+}
+
+.local_exp_content button {
+    border: 1px solid rgba(26, 26, 26, 1);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 52px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px 30px 1px 30px;
+    border-radius: 12px;
+    background: rgba(26, 26, 26, 1);
+}
+
+/* local expertise ends */
+
 /* company section starts */
 
 .company_sec {
@@ -544,19 +607,19 @@ body {
     background-position: center;
 }
 
-.north{
+.north {
     background: url(../images/homes-north-dillard-street.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.eaton{
+.eaton {
     background: url(../images/homes-eaton-garth-penthouse.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.new_apartment{
+.new_apartment {
     background: url(../images/feature-sec-new-apartment.jpg);
     background-size: cover;
     background-position: center;
@@ -662,7 +725,124 @@ body {
 
 /* featured properties section ends */
 
+/* customer review section starts */
+
+.customer_review_sec {
+    background: rgba(249, 249, 249, 1);
+    width: 100%;
+    height: 855px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.customer_review_heading_sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 65px;
+    padding-bottom: 45px;
+}
+
+.customer_review_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 65px;
+}
+
+.customer_heading h2 {
+    color: rgba(26, 26, 26, 1);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    vertical-align: middle;
+    width: 450px;
+}
+
+.customer_review_content .customer h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33.8px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.customer_review_content .customer p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37.5px;
+    vertical-align: middle;
+}
+
+.customer_review_content .customer img {
+    margin-top: 5px;
+}
+
+.customer_review_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.customer_review_cards .customer_review_card {
+    width: 447px;
+    height: 351.48px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 40px;
+}
+
+.customer_review_card .customer_review_mix_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cutomer_img_mix_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cutomer_img_mix_content .cutomer_name h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.cutomer_img_mix_content .cutomer_name p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.customer_review_mix_content .customer_review_quote img{
+    margin-top: 4px;
+}
+
+.customer_review_card_content p {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32.3px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+/* customer review section ends */
+
 /* team section starts */
+
+.team_sec {
+    padding-block: 165px 150px;
+}
 
 .team_sec_heading h2 {
     font-weight: 500;
@@ -716,64 +896,3 @@ body {
 }
 
 /* team section ends */
-
-/* local expertise starts */
-
-.local_expertise_sec {
-    display: flex;
-    align-items: center;
-    height: 902.69px;
-}
-
-.local_exp_main_sec {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-}
-
-.local_exp_image {
-    position: relative;
-}
-
-.local_exp_image .local_expertise {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-.local_exp_content h2 {
-    width: 334.57px;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 52px;
-    vertical-align: middle;
-    color: rgba(26, 26, 26, 1);
-}
-
-.local_exp_content p {
-    margin-top: 19px;
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30.4px;
-    vertical-align: middle;
-    color: rgba(26, 26, 26, 1);
-    width: 603.65px;
-}
-
-.local_exp_content button {
-    border: 1px solid rgba(26, 26, 26, 1);
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 52px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 1px 30px 1px 30px;
-    border-radius: 12px;
-    background: rgba(26, 26, 26, 1);
-}
-
-/* local expertise ends */
