@@ -217,7 +217,7 @@
         justify-content: center;
     }
 
-    .customer_review_card_content p{
+    .customer_review_card_content p {
         text-align: center;
     }
 
@@ -239,4 +239,25 @@
     }
 
     /* team section ends */
+
+    /* discover section starts */
+
+    .discover_main_sec {
+        flex-direction: column-reverse;
+        gap: 50px;
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .discover_main_sec .discover_img img {
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 0;
+    }
+
+    .discover_main_sec .discover_content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* discover section ends */
 }
