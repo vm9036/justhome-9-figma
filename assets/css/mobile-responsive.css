@@ -252,12 +252,22 @@
     .discover_main_sec .discover_img img {
         border-top-left-radius: 16px;
         border-bottom-right-radius: 0;
+        height: auto;
     }
 
     .discover_main_sec .discover_content {
         padding-left: 0;
         text-align: center;
+        padding-inline: 10px;
     }
 
-    /* discover section ends */
-}
+    .discover_main_sec .discover_content h2{
+        width: 100%;
+    }
+
+    .discover_main_sec .discover_content p{
+        width: 100%;
+    }
+
+        /* discover section ends */
+    }
