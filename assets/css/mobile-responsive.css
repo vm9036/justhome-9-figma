@@ -173,9 +173,55 @@
         justify-content: center;
     }
 
-
     /* featured properties section ends */
 
+    /* customer review section starts */
+
+    .customer_review_sec {
+        height: auto;
+        padding-block: 90px 100px;
+    }
+
+    .customer_review_heading_sec {
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    .customer_heading h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .customer_review_content {
+        margin-block: 30px 40px;
+        align-items: center;
+    }
+
+    .customer_review_cards {
+        flex-wrap: wrap;
+    }
+
+    .customer_review_cards .customer_review_card {
+        width: 100%;
+        padding: 30px 20px;
+        height: auto;
+    }
+
+    .customer_review_mix_content .customer_review_quote img {
+        display: none;
+    }
+
+    .customer_review_card .customer_review_mix_content {
+        justify-content: center;
+    }
+
+    .customer_review_card_content p{
+        text-align: center;
+    }
+
+    /* customer review section ends */
 
     /* team section starts */
 
