@@ -841,7 +841,7 @@ body {
 /* team section starts */
 
 .team_sec {
-    padding-block: 165px 150px;
+    padding-block: 100px 130px;
 }
 
 .team_sec_heading h2 {
@@ -944,7 +944,7 @@ body {
     text-align: center;
     vertical-align: middle;
     color: rgba(255, 255, 255, 1);
-    padding:1px 31px;
+    padding: 1px 31px;
     border-radius: 12px;
     border: 1px solid rgba(26, 26, 26, 1);
     background: rgba(26, 26, 26, 1);
@@ -959,3 +959,58 @@ body {
 }
 
 /* discover section ends */
+
+
+/* real estate section starts */
+
+.real_estate_main_sec {
+    padding-bottom: 150px;
+}
+
+.real_estate_heading ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.real_estate_heading ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 36.1px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.real_estate_heading .real {
+    width: 95.58px;
+    margin-top: 11px;
+    border-bottom: 3px solid rgba(26, 26, 26, 1);
+}
+
+.real_estate_heading .border {
+    border-bottom: 1px solid rgba(233, 233, 233, 1);
+}
+
+.real_estate_groups {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+.real_estate_group p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+}
+
+.real_last_group {
+    padding-right: 50px;
+}
+
+/* real estate section ends */

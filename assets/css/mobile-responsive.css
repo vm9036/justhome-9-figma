@@ -261,13 +261,28 @@
         padding-inline: 10px;
     }
 
-    .discover_main_sec .discover_content h2{
+    .discover_main_sec .discover_content h2 {
         width: 100%;
     }
 
-    .discover_main_sec .discover_content p{
+    .discover_main_sec .discover_content p {
         width: 100%;
     }
 
-        /* discover section ends */
+    /* discover section ends */
+
+    /* real estate section starts */
+    .real_estate_heading ul {
+        gap: 20px;
     }
+
+    .real_estate_heading .real {
+        width: 61.58px;
+    }
+
+    .real_estate_groups {
+        gap: 30px;
+    }
+
+    /* real estate section ends */
+}
