@@ -27,6 +27,12 @@
 
     /* hero section starts */
 
+    .hero {
+        height: 100%;
+        padding-block: 80px 60px;
+        background-size: cover;
+    }
+
     .hero_content img {
         display: none;
     }
@@ -36,6 +42,13 @@
     }
 
     /* hero section starts */
+
+    /* feature categories section starts */
+    .feature_main_sec {
+        margin-block: 60px 80px;
+    }
+
+    /* feature categories section starts */
 
     /* homes section starts */
 
@@ -272,6 +285,11 @@
     /* discover section ends */
 
     /* real estate section starts */
+
+    .real_estate_main_sec {
+        padding-bottom: 60px;
+    }
+
     .real_estate_heading ul {
         gap: 20px;
     }
@@ -281,8 +299,72 @@
     }
 
     .real_estate_groups {
+        justify-content: center;
         gap: 30px;
     }
 
+    .real_last_group {
+        padding-right: 0;
+    }
+
+    .real_estate_heading ul li {
+        font-size: 16px;
+    }
+
     /* real estate section ends */
+
+    /* footer section starts */
+
+    .footer_main_sec {
+        height: auto;
+        padding-block: 60px 0;
+    }
+
+    /* footer upper main section starts */
+
+    .footer_upper_main_sec {
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+        padding-block: 20px 30px;
+    }
+
+    /* footer upper main section ends */
+
+    /* footer middle main section starts */
+
+
+    .footer_middle_main_sec {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 30px;
+        padding-block: 40px;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apple_btn {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .google_btn {
+        width: 90%;
+        justify-content: center;
+    }
+
+
+    /* footer middle main section ends */
+
+    .footer_copyright_main_sec p {
+        padding-block: 20px;
+    }
+
+    /* footer section ends */
 }

@@ -168,6 +168,8 @@ body {
 
 /* hero section ends */
 
+/* main starts */
+
 /* feature categories section starts */
 
 .feature_main_sec {
@@ -1014,3 +1016,303 @@ body {
 }
 
 /* real estate section ends */
+
+/* main ends */
+
+/* footer starts */
+
+.footer_main_sec {
+    height: 780px;
+    border-radius: 16px;
+    background: rgba(249, 249, 251, 1);
+}
+
+/* footer upper main section starts */
+.footer_upper_main_sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 167px;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+}
+
+.footer_social_links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.footer_social_links ul li a {
+    color: rgba(26, 26, 26, 1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+
+}
+
+.footer_social_links ul li a i {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* footer upper main section ends */
+
+/* footer middle main section starts */
+
+.footer_middle_main_sec {
+    height: 502px;
+    display: flex;
+    padding-block: 95px;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+    justify-content: space-between;
+}
+
+/* subscribe starts */
+
+.subscribe h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+    padding-bottom: 30px;
+}
+
+.subscribe_input_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(31, 75, 67, 1)
+}
+
+.subscribe_input_box input {
+    border: none;
+    background: transparent;
+}
+
+.subscribe_input_box input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+}
+
+.subscribe_input_box button {
+    border: 1px solid rgba(31, 75, 67, 1);
+    background: rgba(31, 75, 67, 1);
+    padding: 6px 31px;
+    border-radius: 44px;
+    color: rgba(255, 255, 255, 1);
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 13px;
+}
+
+.subscribe_input_box button i {
+    vertical-align: middle;
+}
+
+.subscribe p {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(31, 75, 67, 1);
+}
+
+/* subscribe ends */
+
+/* discover links starts */
+
+.discover_links h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.8px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.discover_links ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.discover_links ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(31, 75, 67, 1);
+}
+
+/* discover links ends */
+
+/* quick links starts */
+
+.quick_links h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.8px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.quick_links ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.quick_links ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(31, 75, 67, 1);
+}
+
+/* quick links ends */
+
+/* contact us starts */
+
+.contact_us h2 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+    color: rgba(26, 26, 26, 1);
+    padding-bottom: 30px;
+}
+
+.contact_us ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.contact_us ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(31, 75, 67, 1);
+}
+
+/* contact us ends */
+
+/* our address starts*/
+
+.our_address h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.our_address p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    vertical-align: middle;
+    color: rgba(31, 75, 67, 1);
+}
+
+/* our address ends */
+
+/* get the app starts */
+
+.get_the_app h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+    padding-bottom: 30px;
+}
+
+.apple_btn {
+    width: 100%;
+    background: rgba(31, 75, 67, 1);
+    border: 1px solid rgba(31, 75, 67, 1);
+    padding: 13px 53px 13px 25px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn_icon i {
+    font-size: 21px;
+}
+
+.btn_content {
+    border-left: 1px solid rgba(225, 218, 218, 0.2);
+    padding-left: 16px;
+}
+
+.btn_content p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.6px;
+    vertical-align: middle;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.btn_content h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.google_btn {
+    width: 100%;
+    background: rgba(31, 75, 67, 1);
+    border: 1px solid rgba(31, 75, 67, 1);
+    padding: 13px 49px 13px 25px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* get the app ends */
+
+/* footer middle main section ends */
+
+/* footer copyright main section starts */
+
+.footer_copyright_main_sec p {
+    padding-block: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(31, 75, 67, 1);
+}
+
+/* footer copyright main section ends */
+
+/* footer ends */
