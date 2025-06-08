@@ -335,7 +335,8 @@
 
 
     .footer_middle_main_sec {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         height: auto;
         text-align: center;
         gap: 30px;
@@ -350,12 +351,10 @@
     }
 
     .apple_btn {
-        width: 90%;
         justify-content: center;
     }
 
     .google_btn {
-        width: 90%;
         justify-content: center;
     }
 

@@ -1,0 +1,129 @@
+/* potrait tablet media quary */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 720px;
+        padding: 0 20px;
+    }
+
+    /* header section starts */
+
+    .main_header_sec {
+        height: 100px;
+    }
+
+    .main_header_sec .main_nav {
+        display: none;
+    }
+
+    .main_header_sec .contact_info {
+        display: none;
+    }
+
+    .main_header_sec .hamburger {
+        display: block;
+    }
+
+    /* header section ends */
+
+    /* homes section starts */
+
+    .homes_sec {
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .home_cards {
+        flex-wrap: wrap;
+    }
+
+    /* homes section ends */
+
+    /* local expertise starts */
+
+    .local_expertise_sec{
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .local_exp_main_sec{
+        flex-wrap: wrap;
+    }
+
+    .local_exp_image img{
+        width: 100%;
+    }
+
+    .local_exp_image .local_expertise {
+        display: none;
+    }
+
+    /* local expertise ends */
+}
+
+/* rotate tablet media quary */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .container {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    /* header section starts */
+
+    .main_header_sec {
+        height: 100px;
+    }
+
+    .main_header_sec .main_nav {
+        display: none;
+    }
+
+    .main_header_sec .contact_info {
+        display: none;
+    }
+
+    .main_header_sec .hamburger {
+        display: block;
+    }
+
+    /* header section ends */
+
+    /* homes section starts */
+
+    .homes_sec {
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .home_cards {
+        flex-wrap: wrap;
+    }
+
+    /* homes section ends */
+
+    /* local expertise starts */
+
+    .local_expertise_sec{
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .local_exp_main_sec{
+        flex-wrap: wrap;
+    }
+
+    .local_exp_image img{
+        width: 100%;
+    }
+
+    .local_exp_image .local_expertise {
+        display: none;
+    }
+
+    /* local expertise ends */
+}
