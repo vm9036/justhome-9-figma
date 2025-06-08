@@ -28,6 +28,15 @@
 
     /* header section ends */
 
+    /* hero starts */
+
+    .hero_content img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* hero ends */
+
     /* homes section starts */
 
     .homes_sec {
@@ -43,16 +52,16 @@
 
     /* local expertise starts */
 
-    .local_expertise_sec{
+    .local_expertise_sec {
         height: auto;
         padding-block: 100px;
     }
 
-    .local_exp_main_sec{
+    .local_exp_main_sec {
         flex-wrap: wrap;
     }
 
-    .local_exp_image img{
+    .local_exp_image img {
         width: 100%;
     }
 
@@ -61,6 +70,43 @@
     }
 
     /* local expertise ends */
+
+    /* featured properties section starts */
+
+    .featured_properties_sec {
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .featured_properties_cards {
+        flex-wrap: wrap;
+    }
+
+    /* featured properties section ends */
+
+    /* customer review section starts */
+    .customer_review_sec {
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .customer_review_heading_sec {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding-right: 0;
+    }
+
+    .customer_heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customer_review_cards {
+        flex-wrap: wrap;
+    }
+
+    /* customer review section ends */
 }
 
 /* rotate tablet media quary */
@@ -93,6 +139,15 @@
 
     /* header section ends */
 
+    /* hero starts */
+
+    .hero_content img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* hero ends */
+
     /* homes section starts */
 
     .homes_sec {
@@ -108,16 +163,16 @@
 
     /* local expertise starts */
 
-    .local_expertise_sec{
+    .local_expertise_sec {
         height: auto;
         padding-block: 100px;
     }
 
-    .local_exp_main_sec{
+    .local_exp_main_sec {
         flex-wrap: wrap;
     }
 
-    .local_exp_image img{
+    .local_exp_image img {
         width: 100%;
     }
 
@@ -126,4 +181,32 @@
     }
 
     /* local expertise ends */
+
+    /* featured properties section starts */
+
+    .featured_properties_sec {
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .featured_properties_cards {
+        flex-wrap: wrap;
+    }
+
+    /* featured properties section ends */
+
+    /* customer review section starts */
+
+    .customer_review_sec {
+        height: auto;
+        padding-block: 100px;
+    }
+
+    .customer_review_heading_sec {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* customer review section ends */
 }
