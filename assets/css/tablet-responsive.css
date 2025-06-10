@@ -136,7 +136,6 @@
 
     /* discover section starts */
 
-
     .discover_main_sec {
         height: auto;
         flex-wrap: wrap-reverse;
@@ -162,6 +161,59 @@
     }
 
     /* discover section ends */
+
+    /* real estate section starts */
+
+    .real_estate_groups {
+        gap: 25px;
+        row-gap: 35px;
+        justify-content: center;
+    }
+
+    .real_last_group {
+        display: none;
+    }
+
+    /* real estate section ends */
+
+    /* footer section starts */
+
+    .footer_main_sec {
+        height: auto;
+    }
+
+    /* footer upper main section starts */
+
+    .footer_upper_main_sec {
+        height: auto;
+        padding-block: 50px;
+    }
+
+    /* footer upper main section ends */
+
+    /* footer middle main section starts */
+
+
+    .footer_middle_main_sec {
+        flex-wrap: wrap-reverse;
+        row-gap: 45px;
+        height: auto;
+        padding-block: 50px 30px;
+        justify-content: space-around;
+    }
+
+    /* footer middle main section ends */
+
+    /* footer copyright main section starts */
+
+    .footer_copyright_main_sec p {
+        padding-block: 20px;
+    }
+
+    /* footer copyright main section ends */
+
+    /* footer section ends */
+
 }
 
 /* rotate tablet media quary */
@@ -293,5 +345,84 @@
     }
 
     /* team section ends */
+
+    /* discover section starts */
+
+    .discover_sec {
+        justify-content: center;
+    }
+
+    .discover_main_sec .discover_img img {
+        width: 100%;
+        height: 567px;
+        border-radius: 16px;
+    }
+
+    .discover_main_sec {
+        height: auto;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap: 50px;
+        background: white;
+    }
+
+    .discover_main_sec .discover_content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* discover section ends */
+
+    /* real estate section starts */
+
+    .real_last_group {
+        padding-right: 0;
+    }
+
+    .real_estate_main_sec {
+        padding-bottom: 90px;
+    }
+
+    /* real estate section ends */
+
+
+    /* footer section starts */
+
+    .footer_main_sec {
+        height: auto;
+    }
+
+    /* footer upper main section starts */
+
+    .footer_upper_main_sec {
+        height: auto;
+        padding-block: 50px;
+    }
+
+    /* footer upper main section ends */
+
+    /* footer middle main section starts */
+
+
+    .footer_middle_main_sec {
+        flex-wrap: wrap;
+        gap: 35px;
+        row-gap: 40px;
+        height: auto;
+        padding-block: 50px 30px;
+        justify-content: space-around;
+    }
+
+    /* footer middle main section ends */
+
+    /* footer copyright main section starts */
+
+    .footer_copyright_main_sec p {
+        padding-block: 20px;
+    }
+
+    /* footer copyright main section ends */
+
+    /* footer section ends */
 
 }
