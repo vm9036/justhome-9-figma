@@ -8,7 +8,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    max-width: 2000px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ body {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    /* padding: 0 15px; */
+    padding: 0 15px;
 }
 
 /* header starts */
@@ -202,7 +202,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 21px;
 }
 
 .feature_card {
@@ -256,7 +256,8 @@ body {
 /* homes section start */
 
 .homes_sec {
-    height: 902.69px;
+    height: auto;
+    padding-block: 165px 135px;
     display: flex;
     align-items: center;
     background: rgba(249, 249, 249, 1);
@@ -291,7 +292,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 14px;
 }
 
 .home_cards .home_card {
@@ -457,16 +459,18 @@ body {
 /* local expertise starts */
 
 .local_expertise_sec {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    height: 902.69px;
+    height: auto; */
+    padding-block: 165px;
 }
 
 .local_exp_main_sec {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 70px;
 }
 
 .local_exp_image {
@@ -548,9 +552,11 @@ body {
 /* featured properties section starts */
 
 .featured_properties_sec {
-    height: 850px;
+    /* height: auto;
+
     display: flex;
-    align-items: center;
+    align-items: center; */
+    padding-block: 165px;
 }
 
 .featured_property_heading_content {
@@ -580,6 +586,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
