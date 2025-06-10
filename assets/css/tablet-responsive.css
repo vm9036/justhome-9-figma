@@ -106,7 +106,62 @@
         flex-wrap: wrap;
     }
 
+    .customer_review_cards .customer_review_card {
+        width: 90%;
+        height: auto;
+    }
+
     /* customer review section ends */
+
+    /* team section starts */
+
+    .team_sec {
+        padding-block: 100px;
+    }
+
+    .team_experts_cards {
+        flex-wrap: wrap;
+    }
+
+    .team_expert_card {
+        width: 40%;
+        height: auto;
+    }
+
+    .team_expert_card .expert_name {
+        text-align: center;
+    }
+
+    /* team section ends */
+
+    /* discover section starts */
+
+
+    .discover_main_sec {
+        height: auto;
+        flex-wrap: wrap-reverse;
+        padding-block: 0 50px;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .discover_main_sec .discover_content {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .discover_main_sec .discover_content p {
+        width: 450px;
+    }
+
+    .discover_main_sec .discover_img img {
+        height: auto;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 0;
+    }
+
+    /* discover section ends */
 }
 
 /* rotate tablet media quary */
@@ -203,10 +258,40 @@
     }
 
     .customer_review_heading_sec {
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
         gap: 30px;
+        padding-right: 0;
+    }
+
+    .customer_heading h2 {
+        width: 100%;
+    }
+
+    .customer_review_cards {
+        flex-wrap: wrap;
     }
 
     /* customer review section ends */
+
+    /* team section starts */
+
+    .team_sec {
+        padding-block: 100px;
+    }
+
+    .team_experts_cards {
+        flex-wrap: wrap;
+    }
+
+    .team_expert_card {
+        width: 40%;
+        height: auto;
+    }
+
+    .team_expert_card .expert_name {
+        text-align: center;
+    }
+
+    /* team section ends */
+
 }
